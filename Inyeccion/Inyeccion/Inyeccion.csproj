@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Acciones\Acciones.csproj" />
+    <ProjectReference Include="..\Interfaz\Interfaz.csproj" />
+    <ProjectReference Include="..\Logica\Logica.csproj" />
+    <ProjectReference Include="..\Personaje\Personaje.csproj" />
+    <ProjectReference Include="..\Principal.Ninject\Principal.Ninject.csproj" />
+  </ItemGroup>
+
+</Project>
